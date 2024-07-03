@@ -5,7 +5,7 @@ if (architecture_select == "1"):
     architecture_select = "qemu-system-i386"
 if (architecture_select == "2"):
     architecture_select = "qemu-system-ppc"
-if (architecture_select == "1"):
+if (architecture_select == "3"):
     architecture_select = "qemu-system-arm"
 drive_c = input("Enter file patch to C Drive: ")
 drive_d_enabled = True
